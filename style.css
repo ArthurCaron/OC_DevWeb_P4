@@ -123,7 +123,6 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -134,6 +133,12 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
+}
+
+.d-bloc a .icon-md,
+.d-bloc .col-sm-4,
+.d-bloc .col-sm-12 p.text-center {
+    color: rgba(0, 0, 0, .8) !important;
 }
 
 .d-bloc .a-btn:hover,
@@ -735,10 +740,6 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
-}
-
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -775,17 +776,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -1039,4 +1040,9 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+div.row div.col-sm-12 p.white,
+.white {
+    color: #FFFFFF!important;
 }
